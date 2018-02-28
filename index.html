@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Monoton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystal Collector</title>
+</head>
+<body class="background">
+  <div class="title"><h1>Crystal Collector</h1></div>
+  <div class="instructions"><p class="instruc">
+You will be given a random nunmber at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.  You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.  The value of each crystal is hidden from you until you click on it.  Each time the game starts, the game will change the values of each crystal. 
+  </p></div>  
+  <div id="randomNum" class="rando"></div> 
+
+  <div id="win-loss-tracker">
+        <div>
+            <h2><span id="win-lose"></span></h2>
+        </div>
+        <div>
+          <h2>Wins:<span id="wins"></span></h2>
+        </div>
+  
+        <div>
+          <h2>Losses:<span id="losses"></span></h2>
+        </div>
+  </div>
+  <div class="scoreTitle">Your Total Score Is:</div>
+  <div class="bottom">
+    <span id="score"></span>
+  </div>
+  <br>
+  <div class="buttons">
+        <button id="button1" class="but1"><img src="assets/images/jewel1.jpg" class=image id="one" alt="Jewel 1"></button>
+		<button id="button2" class="but2"><img src="assets/images/jewel2.jpg" class=image id="two" alt="Jewel 2"></button>
+		<button id="button3" class="but3"><img src="assets/images/jewel3.png" class=image id= "three" alt="Jewel 3"></button>
+		<button id="button4" class="but4"><img src="assets/images/jewel4.png" class=image id= "four" alt="Jewel 4"></button>
+  </div>
+  </div> 
+  <script src="assets/javascript/game.js"></script>
+</body>
+</html>
